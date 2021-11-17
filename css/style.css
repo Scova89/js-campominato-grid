@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+}
+
+.container-easy{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-easy{
+    border: 1px solid white;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    
+}
