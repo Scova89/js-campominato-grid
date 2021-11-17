@@ -18,9 +18,15 @@ body{
     flex-wrap: wrap;
 }
 
-.box-easy{
+.box{
     border: 1px solid white;
+    color: white;
+    text-align: center;
+    
+}
+
+.easy{
     width: calc(100% / 10);
     height: calc(100% / 10);
-    
+    line-height: 50px;
 }
